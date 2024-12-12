@@ -224,15 +224,15 @@ const Menu = () => {
           <img
             src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/1652030916333.jpeg"
             alt=""
-            className="rounded rellax text-center ms-5"
+            className="rounded rellax text-center "
             data-rellax-speed={2}
             data-rellax-percentage="0.5"
-            style={{ width: 300, height: 300 }}
+            style={{ width: 313, height: 313 }}
           />
         </div>
         {/* / column */}
         <div className="col-lg-7 tablet-lg-top-30">
-          <p className="mb-30">
+          <p className="mb-30 mt-3">
             "I've been a Ciferon user for two years, and it has transformed how
             we manage all our Kamat Restaurants locations, automating operations
             from top to bottom. The comprehensive integrations and the dedicated
@@ -252,7 +252,7 @@ const Menu = () => {
         <div className="col-lg-6 tablet-lg-top-45">
           <img
             src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/leads.png"
-            className="ms-5"
+            
             style={{ width: 500, height: 520 }}
             alt=""
           />

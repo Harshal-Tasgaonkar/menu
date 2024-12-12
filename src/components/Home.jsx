@@ -46,80 +46,99 @@ const Home = () => {
       {/* / container */}
     </section>
     {/* / about */}
-    <div className=" best  container  mb-5">
+    <div className="container  mb-5">
   <div className="text-center">
     <h2 className="">Trusted by 15,000+ outlets as</h2>
     <h2 className="mb-80">Best Restaurant Management Software</h2>
   </div>
   {/* / text-center */}
-  <div
-    className="d-flex justify-content-start align-items-center  "
-    style={{ whiteSpace: "nowrap" }}
-  >
-    <img
-      src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/1.png"
-      width={123}
-      height={76}
-      alt="Brand 1"
-      className="img-fluid mx-2"
-    />
-    <img
-      src="	https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/11.png"
-      width={123}
-      height={76}
-      alt="Brand 2"
-      className="img-fluid mx-2"
-    />
-    <img
-      src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/2.png"
-      width={123}
-      height={76}
-      alt="Brand 3"
-      className="img-fluid mx-2"
-    />
-    <img
-      src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/3.png"
-      width={123}
-      height={76}
-      alt="Brand 4"
-      className="img-fluid mx-2"
-    />
-    <img
-      src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/5.png"
-      width={123}
-      height={76}
-      alt="Brand 5"
-      className="img-fluid mx-2"
-    />
-    <img
-      src="	https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/12.png"
-      width={123}
-      height={76}
-      alt="Brand 6"
-      className="img-fluid mx-2"
-    />
-    <img
-      src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/4.png"
-      width={123}
-      height={76}
-      alt="Brand 7"
-      className="img-fluid mx-2"
-    />
-    <img
-      src="	https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/7.png"
-      width={123}
-      height={76}
-      alt="Brand 8"
-      className="img-fluid mx-2"
-    />
-    <img
-      src="	https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/8.png"
-      width={123}
-      height={76}
-      alt="Brand 9"
-      className="img-fluid mx-2"
-    />
+  <div className="row d-flex justify-content-evenly">
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/1.png" 
+        alt="Brand 1"
+        className="card-img-top "
+      />
+    </div>
   </div>
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/11.png"  
+        alt="Brand 2"
+        className="card-img-top "
+      />
+    </div>
+  </div>
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/2.png"  
+        alt="Brand 3"
+        className="card-img-top"
+      />
+    </div>
+  </div>
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img 
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/3.png"   
+        alt="Brand 4"
+        className="card-img-top "
+      />
+    </div>
+  </div>
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/5.png"  
+        alt="Brand 5"
+        className="card-img-top "
+      />
+    </div>
+  </div>
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/12.png"   
+        alt="Brand 6"
+        className="card-img-top"
+      />
+    </div>
+  </div>
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/4.png"  
+        alt="Brand 7"
+        className="card-img-top "
+      />
+    </div>
+  </div>
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/7.png"  
+        alt="Brand 8"
+        className="card-img-top "
+      />
+    </div>
+  </div>
+  <div className="col-6 col-md-4 col-lg-1 mb-2">
+    <div className="card" style={{ width: '120px', height: '76px' }}>
+      <img
+        src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/8.png"   
+        alt="Brand 9"
+        className="card-img-top "
+      />
+    </div>
+  </div>
+</div>
+
+
+
+
 </div>
 
 
@@ -423,9 +442,9 @@ const Home = () => {
     <span className="text-primary">Food Business</span>
   </h2>
   
-  {/* First Row */}
-  <div className="row row-cols-5 g-0 pb-0">
-    <div className="col">
+  {/* First Row (Top 5 Cards) */}
+  <div className="row row-cols-2 row-cols-md-5 g-0">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#fce4ec", borderRadius: 10 }}
@@ -440,7 +459,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="col">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#e3f2fd", borderRadius: 10 }}
@@ -455,7 +474,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="col">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#fff9c4", borderRadius: 10 }}
@@ -470,7 +489,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="col">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#ede7f6", borderRadius: 10 }}
@@ -485,7 +504,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="col">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#e0f7fa", borderRadius: 10 }}
@@ -502,9 +521,9 @@ const Home = () => {
     </div>
   </div>
   
-  {/* Second Row */}
-  <div className="row row-cols-5 g-0 pt-0">
-    <div className="col">
+  {/* Second Row (Bottom 5 Cards) */}
+  <div className="row row-cols-2 row-cols-md-5 g-0 pt-0">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#ede7f6", borderRadius: 10 }}
@@ -519,7 +538,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="col">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#e8f5e9", borderRadius: 10 }}
@@ -534,7 +553,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="col">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#fce4ec", borderRadius: 10 }}
@@ -549,7 +568,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="col">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#e3f2fd", borderRadius: 10 }}
@@ -564,7 +583,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="col">
+    <div className="col mb-2">
       <div
         className="card text-center border-0"
         style={{ backgroundColor: "#fff9c4", borderRadius: 10 }}
@@ -582,13 +601,14 @@ const Home = () => {
   </div>
 </div>
 
+
       <div className="container">
         <div className="row v-center">
           <div className="col-lg-5">
             <img
               src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/1652030916333.jpeg"
-              className="ms-5"
-              style={{ width: 300, height: 300 }}
+               className="rounded rellax text-center"
+              style={{ width: 313, height: 313 }}
               alt=""
               data-rellax-speed={2}
               data-rellax-percentage="0.5"
@@ -596,7 +616,7 @@ const Home = () => {
           </div>
           {/* / column */}
           <div className="col-lg-7 tablet-lg-top-30">
-            <p className="mb-30">
+            <p className="mb-30 mt-3">
               "I've been a Ciferon user for two years, and it has transformed
               how we manage all our Kamat Restaurants locations, automating
               operations from top to bottom. The comprehensive integrations and
@@ -617,7 +637,7 @@ const Home = () => {
           <div className="col-lg-6 tablet-lg-top-45">
             <img
               src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/leads.png"
-              className="ms-5"
+              
               style={{ width: 500, height: 520 }}
               alt=""
             />

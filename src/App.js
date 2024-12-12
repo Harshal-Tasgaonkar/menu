@@ -19,6 +19,10 @@ import Billing from "./components/Billing";
 import Inventory from "./components/Inventory";
 import Menu from "./components/Menu";
 import CustomerFeedback from "./components/CustomerFeedback";
+import OutletFormat from "./components/OutletFormat";
+import OnlineOrder from "./components/OnlineOrder";
+import RestaurantReports from "./components/RestaurantReports";
+import CustomerManagement from "./components/CustomerManagement";
 
 function App() {
   return (
@@ -46,9 +50,10 @@ function App() {
     <Route path="/inventory" element={<Inventory />} />
     <Route path="/menu" element={<Menu />} />
     <Route path="/customerfeedback" element={<CustomerFeedback />} />
-    
-
-
+    <Route path="/outlet" element={<OutletFormat />} />
+    <Route path="/onlineorder" element={<OnlineOrder />} />
+    <Route path="/reports" element={<RestaurantReports />} />
+    <Route path="/customermanagement" element={<CustomerManagement />} />
 
      
     </Routes>

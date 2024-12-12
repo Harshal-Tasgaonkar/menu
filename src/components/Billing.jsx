@@ -50,8 +50,8 @@ const Billing = () => {
       </h2>
       <div className="row justify-content-center">
         {/* Card 1 */}
-        <div className="col-md-6 col-lg-4 mb-4">
-          <div className="card " style={{ backgroundColor: "#f2fbff" }}>
+        <div className="col-md-6 col-lg-4 mb-4 ">
+          <div className="card p-4 " style={{ backgroundColor: "#f2fbff" }}>
             <img
               src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/Customizable-bill-format2-3.png.webp"
               alt="Card Image"
@@ -67,8 +67,8 @@ const Billing = () => {
           </div>
         </div>
         {/* Card 2 */}
-        <div className="col-md-6 col-lg-4 mb-4">
-          <div className="card" style={{ backgroundColor: "#f2fbff" }}>
+        <div className="col-md-6 col-lg-4 mb-4 ">
+          <div className="card p-4" style={{ backgroundColor: "#f2fbff" }}>
             <img
               src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/Station-wise-KOT-printing2-1.png.webp"
               alt="Card Image"
@@ -88,7 +88,7 @@ const Billing = () => {
       <div className="row justify-content-center">
         {/* Card 1 */}
         <div className="col-md-6 col-lg-4 mb-4">
-          <div className="card" style={{ backgroundColor: "#f2fbff" }}>
+          <div className="card p-4" style={{ backgroundColor: "#f2fbff" }}>
             <img
               src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/Multi-terminal-billing2-1.png.webp"
               alt="Card Image"
@@ -105,7 +105,7 @@ const Billing = () => {
         </div>
         {/* Card 2 */}
         <div className="col-md-6 col-lg-4 mb-4">
-          <div className="card" style={{ backgroundColor: "#f2fbff" }}>
+          <div className="card p-4" style={{ backgroundColor: "#f2fbff" }}>
             <img
               src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/Table-and-area-management3-1.png.webp"
               alt="Card Image"
@@ -125,7 +125,7 @@ const Billing = () => {
       <div className="row justify-content-center">
         {/* Card 1 */}
         <div className="col-md-6 col-lg-4 mb-4">
-          <div className="card" style={{ backgroundColor: "#f2fbff" }}>
+          <div className="card p-4" style={{ backgroundColor: "#f2fbff" }}>
             <img
               src="	https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/Configure-taxes-amp-discounts2-1.png.webp"
               alt="Card Image"
@@ -142,7 +142,7 @@ const Billing = () => {
         </div>
         {/* Card 2 */}
         <div className="col-md-6 col-lg-4 mb-4">
-          <div className="card " style={{ backgroundColor: "#f2fbff" }}>
+          <div className="card p-4 " style={{ backgroundColor: "#f2fbff" }}>
             <img
               src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/Works-online-amp-offline-both-2-1.png.webp"
               alt="Card Image"
@@ -209,15 +209,15 @@ const Billing = () => {
           <img
             src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/1652030916333.jpeg"
             alt=""
-            className="rounded rellax text-center ms-5"
+            className="rounded rellax text-center"
             data-rellax-speed={2}
             data-rellax-percentage="0.5"
-            style={{ width: 300, height: 300 }}
+            style={{ width: 313, height: 313 }}
           />
         </div>
         {/* / column */}
         <div className="col-lg-7 tablet-lg-top-30">
-          <p className="mb-30">
+          <p className="mb-30 mt-3">
             "I've been a Ciferon user for two years, and it has transformed how
             we manage all our Kamat Restaurants locations, automating operations
             from top to bottom. The comprehensive integrations and the dedicated
@@ -237,7 +237,7 @@ const Billing = () => {
         <div className="col-lg-6 tablet-lg-top-45">
           <img
             src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/leads.png"
-            className="ms-5"
+            
             style={{ width: 500, height: 520 }}
             alt=""
           />

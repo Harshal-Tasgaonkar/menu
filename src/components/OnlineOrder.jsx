@@ -1,23 +1,21 @@
 import React from 'react'
-import scan from "../assets/images/scan.jpg"
-import Header from './Header'
 import Footer from './Footer'
+import Header from './Header'
 
-const CustomerFeedback = () => {
+const OnlineOrder = () => {
   return (
     
-   <>
-   <>
+    <>
 
-  <Header/>
+    <Header/>
 
-  <div className="main-container p-0">
+     <div className="main-container p-0">
     <section id="why-us" className="xl bg-gradient-body">
       <div className="container">
         <div className="row v-center">
           <div className="col-lg-5">
             <img
-              src={scan}
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/6-1.png"
               alt=""
               className="rounded rellax"
               data-rellax-speed={2}
@@ -26,11 +24,12 @@ const CustomerFeedback = () => {
           </div>
           {/* / column */}
           <div className="col-lg-7 tablet-lg-top-30">
-            <h2 className="mb-30">Feedback Management</h2>
+            <h2 className="mb-30">
+            One screen to manage all your online orders
+            </h2>
             <p className="mb-30">
-              Personalize your feedback form. Incorporate their expectations.
-              Reassure them that their opinions are being considered. Act upon
-              them by giving them a memorable dining experience.
+            Accept online orders, maintain your digital menu, and show when food is ready. You can also accept payments and keep track of sales all from one location. 
+            This saves you from having to flip between screens.
             </p>
             <a href="#x" className="btn btn-primary pill mr-5">
               <i className="fas fa-shopping-cart mr-5" />{" "}
@@ -43,46 +42,124 @@ const CustomerFeedback = () => {
       </div>
       {/* / container */}
     </section>
+    <div className="container py-5">
+      <h2 className="text-center">
+      Discover what Ciferon can do for your online order management
+      </h2>
+      <div className="row justify-content-center">
+        {/* Card 1 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card " style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/Online-Order-Integration2-1.png.webp"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">
+              Online Order Integration
+              </h6>
+              <p className="card-text">
+              Integrate easily with any food aggregator with Ciferon, and manage your order from single dashboard, accept, mark food ready, deliver. as simple it that
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Card 2 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card" style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/Menu-Updations-Changes-2.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">Menu Updations & Changes</h6>
+              <p className="card-text">
+              Manage online menu directly from Ciferon POS, add, update, modify whenever you want! customise menu timing, add images and more
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row justify-content-center">
+        {/* Card 1 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card" style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/2-4.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">Toggle Your Items & Outlet On/Off</h6>
+              <p className="card-text">
+              Running out of stock? manage your menu online status from Ciferon POS. Turn item or category on/off as per your availability
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Card 2 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card" style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/Customisable-Charges-Add-Ons-4.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">Customisable Charges & Add-Ons</h6>
+              <p className="card-text">
+              Add customised charges such as packaging charge, container charge, discounts or offer from Ciferon admin panel. No more juggling between here or there
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
     <section id="features" className="xl">
       <div className="container">
         <div className="text-center">
           <h2 className="section-title mb-80">
-            Discover what Feedback can do for your outlet
+          Ciferon is more than just
+          a online order management software
           </h2>
         </div>
         {/* / text-center */}
         <div className="container py-5">
         <div className="row text-center">
+            
+
             <div className="col-md-4 mb-4">
                 <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-book feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Android-supported feedback app</h5>
-                <p style={{ color: '#666' }} className="feature-description">User-friendly feedback app for broad Android compatibility, smooth operation across all devices, and improved overall user experience.</p>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Billing & Kot</h5>
+                <p style={{ color: '#666' }} className="feature-description">Ciferon's restaurant POS makes it easy to take orders, create bills, and generate KOT. You can accept payments, split bills, merge tables, and apply discounts and coupons effortlessly.</p>
             </div>
+
+            <div className="col-md-4 mb-4">
+                <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-book feature-icon"></i>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Menu Management</h5>
+                <p style={{ color: '#666' }} className="feature-description">Personalize your restaurant menu to make it better for customers. Add exciting extras, special offers, unique menus, and dynamic pricing options.</p>
+            </div>
+
             <div className="col-md-4 mb-4">
                 <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-book-open feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Create feedback links and share by SMS</h5>
-                <p style={{ color: '#666' }} className="feature-description">Create personalized feedback links for customers and send them quickly by SMS to increase engagement and acquire useful insights to enhance your services.</p>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Inventory Management</h5>
+                <p style={{ color: '#666' }} className="feature-description">Smartly manage your inventory with instant low-stock alerts, item-wise auto-deduct, create daily closing reports and much more</p>
             </div>
-            <div className="col-md-4 mb-4">
-                <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-book feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Feedback via QR codes</h5>
-                <p style={{ color: '#666' }} className="feature-description">Implementing a dynamic feedback system by installing QR codes on all tables and counters. Customers can easily scan these QR codes to provide feedback.</p>
-            </div>
+            
             <div className="col-md-4 mb-4">
                 <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-file-invoice feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Customisable questions</h5>
-                <p style={{ color: '#666' }} className="feature-description">Craft and modify questions to your preferences for feedback. Personalize inquiries to generate smart responses.</p>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Reports & Analytics</h5>
+                <p style={{ color: '#666' }} className="feature-description">Receive instant reports on your owner’s app & WhatsApp for day-end sales, inventory, staff activities, and other vital business insights.</p>
             </div>
             <div className="col-md-4 mb-4">
                 <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-qrcode feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Customer data collection</h5>
-                <p style={{ color: '#666' }} className="feature-description">Easily collect customer information like as birthdays and anniversaries via feedback forms and use this information to send personalized alerts.</p>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Customer Engagement</h5>
+                <p style={{ color: '#666' }} className="feature-description">Ciferon's CRM enables you to monitor, handle, and reward loyal customers, ensuring that your brand forms a unique connection with each customer.</p>
             </div>
-            <div className="col-md-4 mb-4">
-                <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-mobile-alt feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Gather and track feedback from third-party applications</h5>
-                <p style={{ color: '#666' }} className="feature-description">Gather consumer feedback for online orders processed by a third party, guaranteeing a comprehensive approach to resolving any issues.</p>
-            </div>
+           
         </div>
     </div>
         {/* / row */}
@@ -96,7 +173,7 @@ const CustomerFeedback = () => {
           <img
             src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/1652030916333.jpeg"
             alt=""
-            className="rounded rellax text-center"
+            className="rounded rellax text-center "
             data-rellax-speed={2}
             data-rellax-percentage="0.5"
             style={{ width: 313, height: 313 }}
@@ -124,7 +201,7 @@ const CustomerFeedback = () => {
         <div className="col-lg-6 tablet-lg-top-45">
           <img
             src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/leads.png"
-             className="rounded rellax text-center"
+            
             style={{ width: 500, height: 520 }}
             alt=""
           />
@@ -280,7 +357,7 @@ const CustomerFeedback = () => {
                     aria-expanded="true"
                     aria-controls="minimal-collapseOne"
                   >
-                    Is it possible to collect feedback without placing an order?
+                    Do I need to make a payment to link Zomato and Swiggy with the Ciferon online ordering system?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -294,8 +371,8 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    Absolutely! Your customers can provide feedback on your
-                    staff service even if they haven’t placed an order.
+                  Yes, Payment is needed to connect Zomato and Swiggy to the Ciferon online ordering platform.
+                   The cost of integration and maintenance is covered by this payment, which guarantees smooth operation and synchronization between the Ciferon platform and online ordering services like Zomato and Swiggy.
                   </div>
                   {/* / accordion-body */}
                 </div>
@@ -312,8 +389,7 @@ const CustomerFeedback = () => {
                     aria-expanded="false"
                     aria-controls="minimal-collapseTwo"
                   >
-                    How many methods are available for gathering feedback
-                    through the Ciferon POS system?
+                    How much time it will take to integrate Zomato & Swiggy with Ciferon POS?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -327,9 +403,8 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    Ciferon’s Feedback features let you gather feedback from
-                    your customers through an Android app, an SMS link, and a
-                    feedback QR code.
+                  It usually takes five to six business days to integrate Zomato and Swiggy with the Ciferon POS.
+                  This timeline makes it possible to make all the required setups and modifications, guaranteeing a seamless and effective integration of the online ordering services with the Ciferon POS.
                   </div>
                   {/* / accordion-body */}
                 </div>
@@ -346,8 +421,7 @@ const CustomerFeedback = () => {
                     aria-expanded="false"
                     aria-controls="minimal-collapseThree"
                   >
-                    Is there a limit to how much feedback I can collect through
-                    SMS?
+                   Can I update my online menu from Ciferon?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -361,7 +435,8 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    You can take unlimited customer feedback!
+                  Absolutely! You have the power to craft multiple menus, and then it’s as easy as assigning each one to its respective outlet. 
+                  Simple as that!
                   </div>
                   {/* / accordion-body */}
                 </div>
@@ -378,7 +453,7 @@ const CustomerFeedback = () => {
                     aria-expanded="false"
                     aria-controls="minimal-collapseThree"
                   >
-                    Can I customise customer feedback questions?
+                   Can I update my online menu from Ciferon?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -392,8 +467,8 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    You can personalize your messages and organize them based on
-                    what works best for you and your customers.
+                  Absolutely, Ciferon gives you the flexibility to change your online menu.
+                   You can effortlessly add to and modify your menu through the system’s interface, making sure that your online offers are correct and up to date for customers.
                   </div>
                   {/* / accordion-body */}
                 </div>
@@ -410,7 +485,7 @@ const CustomerFeedback = () => {
                     aria-expanded="false"
                     aria-controls="minimal-collapseThree"
                   >
-                    Can I collect feedback using a QR code?
+                    Is auto-accept feature available for online orders in Ciferon?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -424,15 +499,109 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    Absolutely! You can print a feedback form generated by the
-                    POS system on your bill and collect QR-code feedback during
-                    payment.
+                  Yes, online orders can use Ciferon’s auto-accept capability. 
+                  By automatically accepting incoming online orders, this feature expedites order processing, minimizes the need for manual involvement, and guarantees a more effective and smooth experience for the company’s clients.
                   </div>
                   {/* / accordion-body */}
                 </div>
                 {/* / collapse */}
               </div>
               {/* / accordion-item */}
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="minimal-headingThree">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#minimal-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="minimal-collapseThree"
+                  >
+                   What if my order got rejected?
+                    <span>
+                      <i className="fas fa-chevron-down" />
+                    </span>
+                  </button>
+                </h2>
+                {/* / accordion-header */}
+                <div
+                  id="minimal-collapseThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="minimal-headingThree"
+                  data-bs-parent="#minimal-accordionExample"
+                >
+                  <div className="accordion-body">
+                  Ciferon guarantees that if your order is rejected, you will be notified immediately.
+                   Meanwhile, the report section will display the specifics of the refused order, enabling you to promptly evaluate and resolve the reasons behind the rejection for a quicker resolution procedure.
+                  </div>
+                  {/* / accordion-body */}
+                </div>
+                {/* / collapse */}
+              </div>
+              {/* / accordion-item */}
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="minimal-headingThree">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#minimal-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="minimal-collapseThree"
+                  >
+                   Can I use my own payment gateway for online orders?
+                    <span>
+                      <i className="fas fa-chevron-down" />
+                    </span>
+                  </button>
+                </h2>
+                {/* / accordion-header */}
+                <div
+                  id="minimal-collapseThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="minimal-headingThree"
+                  data-bs-parent="#minimal-accordionExample"
+                >
+                  <div className="accordion-body">Yes, you can place online orders using your payment gateway with Ciferon.
+                     The system likely allows integration with various payment gateways, enabling customers to make secure online transactions through the preferred payment methods supported by your business.</div>
+                  {/* / accordion-body */}
+                </div>
+                {/* / collapse */}
+              </div>
+              {/* / accordion-item */}
+
+              {/* / accordion-item */}
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="minimal-headingThree">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#minimal-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="minimal-collapseThree"
+                  >
+                   How may food aggregators are integrated with Ciferon POS?
+                    <span>
+                      <i className="fas fa-chevron-down" />
+                    </span>
+                  </button>
+                </h2>
+                {/* / accordion-header */}
+                <div
+                  id="minimal-collapseThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="minimal-headingThree"
+                  data-bs-parent="#minimal-accordionExample"
+                >
+                  <div className="accordion-body">Ciferon POS has the flexibility to connect with as many food aggregators as you prefer. 
+                    This adaptability allows you to expand your online presence and reach a broader customer base by integrating with multiple food aggregators simultaneously.</div>
+                  {/* / accordion-body */}
+                </div>
+                {/* / collapse */}
+              </div>
+              {/* / accordion-item */}
+
             </div>
             {/* / accordion */}
           </div>
@@ -444,14 +613,12 @@ const CustomerFeedback = () => {
     </section>
     {/* / faq */}
   </div>
-  {/* / main-container */}
+    
+   <Footer/>
 
-  <Footer/>
-</>
-
-   </>
+    </>
 
   )
 }
 
-export default CustomerFeedback
+export default OnlineOrder

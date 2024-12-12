@@ -140,7 +140,10 @@ const Footer = () => {
               >
                 <li><Link className="text-dark"  to="/billing">Billing</Link></li>
                 <li><Link className="text-dark" to="/inventory">Inventory</Link></li>
-                <li><Link className="text-dark" to="menu">Menu</Link></li>
+                <li><Link className="text-dark" to="/menu">Menu</Link></li>
+                <li><Link className="text-dark" to="/onlineorder">Online Order</Link></li>
+                <li><Link className="text-dark" to="/reports">Restaurant Reports</Link></li>
+                <li><Link className="text-dark" to="/customermanagement">Customer Management</Link></li>
                 <li><Link className="text-dark" to="/customerfeedback">Customer Feedback</Link></li>
               </ul>
             )}
@@ -171,7 +174,7 @@ const Footer = () => {
             )}
           </li>
           <li className="mb-2">
-            <Link className="text-dark" to="">Outlet Format</Link>
+            <Link className="text-dark" to="/outlet">Outlet Format</Link>
           </li>
         </ul>
       </div>

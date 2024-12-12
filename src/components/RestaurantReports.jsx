@@ -1,23 +1,21 @@
 import React from 'react'
-import scan from "../assets/images/scan.jpg"
-import Header from './Header'
 import Footer from './Footer'
+import Header from './Header'
 
-const CustomerFeedback = () => {
+const RestaurantReports = () => {
   return (
     
-   <>
-   <>
+  <>
 
-  <Header/>
+   <Header/>
 
-  <div className="main-container p-0">
+   <div className="main-container p-0">
     <section id="why-us" className="xl bg-gradient-body">
       <div className="container">
         <div className="row v-center">
           <div className="col-lg-5">
             <img
-              src={scan}
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/2-1.png"
               alt=""
               className="rounded rellax"
               data-rellax-speed={2}
@@ -26,14 +24,14 @@ const CustomerFeedback = () => {
           </div>
           {/* / column */}
           <div className="col-lg-7 tablet-lg-top-30">
-            <h2 className="mb-30">Feedback Management</h2>
+            <h2 className="mb-30">
+            Stay connected with your outlet, wherever you are.
+            </h2>
             <p className="mb-30">
-              Personalize your feedback form. Incorporate their expectations.
-              Reassure them that their opinions are being considered. Act upon
-              them by giving them a memorable dining experience.
+            The best restaurant reports software to manage your restaurant reports and analytics of daily sales, monthly sales, profits, taxes, online orders, and GST in real-time.
             </p>
             <a href="#x" className="btn btn-primary pill mr-5">
-              <i className="fas fa-shopping-cart mr-5" />{" "}
+              
               <span>Book a free demo</span>
             </a>
           </div>
@@ -43,46 +41,163 @@ const CustomerFeedback = () => {
       </div>
       {/* / container */}
     </section>
+    <div className="container py-5">
+      <h2 className="text-center">
+      Discover what Ciferon can do for your reports
+      </h2>
+      <div className="row justify-content-center">
+        {/* Card 1 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card " style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/Single-Dashboard-Monitoring-1.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">
+              Single Dashboard Monitoring
+              </h6>
+              <p className="card-text">
+              No more juggling between dashboards. By consolidating all of your sales data from dine-in, QR codes, Zomato/Swiggy, and your website onto a single dashboard, Ciferon makes your life easier. Without any difficulty, get a complete, real-time view of your restaurant!
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Card 2 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card" style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/Compressive-Tax-Reports22-1.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">Compressive Tax Reports</h6>
+              <p className="card-text">
+              Your tax-related difficulties are over! With just one click, you can access detailed tax reports for all of your outlets with Ciferon.
+               Put an end to gathering information from multiple sources and concentrate only on efficiently filing your taxes!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="row justify-content-center">
+        {/* Card 1 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card" style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="	https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/placeholder-56.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">Web & App</h6>
+              <p className="card-text">
+              Ciferon makes it easy to keep track of your restaurant! You can view our dashboard as an iOS or Android app, or as a webpage on your computer. Keep easy control over your restaurant's operations from anywhere, using any device.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Card 2 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card" style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/Head-Office-Module-with-Clusters-1.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">Head Office Module with Clusters</h6>
+              <p className="card-text">
+              Are you feeling overburdened by running several outlets? Monitor sales across all locations on a single screen with Ciferon's Head Office module, which is part of the subscription. Establish zones according to cities, regions, or channels to have the information you require at your fingertips (e.g., Zomato sales for the Western Region). Use Ciferon to streamline supervision!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="row justify-content-center">
+        {/* Card 1 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card" style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/User-rights-management-1.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">User rights management</h6>
+              <p className="card-text">
+              Ciferon allows you to take control! By giving particular roles and rights to the admin panel and the billing app, you can customize what your employees see. You have complete control over your outlet's operations, which are all centralized for your convenience, from changing bills to seeing reports and operating the cash drawer.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* Card 2 */}
+        <div className="col-md-6 col-lg-4 mb-4">
+          <div className="card" style={{ backgroundColor: "#faf2eb" }}>
+            <img
+              src="	https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/Set-Automate-WhatsApp-Report-2.png"
+              alt="Card Image"
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h6 className="card-title">Set Automate WhatsApp Report</h6>
+              <p className="card-text">
+              Did you miss today's reports? We've got you covered, no worries! You can select which reports to receive in your WhatsApp and when with Ciferon WhatsApp Reports. Easily stay up to date!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
     <section id="features" className="xl">
       <div className="container">
         <div className="text-center">
           <h2 className="section-title mb-80">
-            Discover what Feedback can do for your outlet
+          Ciferon is more than just
+          a reporting software
           </h2>
         </div>
         {/* / text-center */}
         <div className="container py-5">
         <div className="row text-center">
+            
+
+        <div className="col-md-4 mb-4">
+                <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-file-invoice feature-icon"></i>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Online Orders</h5>
+                <p style={{ color: '#666' }} className="feature-description">Receive online orders, handle your digital menu, indicate when food is ready, process payments, and track revenue—all in one place without switching between multiple screens.</p>
+            </div>
+
             <div className="col-md-4 mb-4">
                 <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-book feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Android-supported feedback app</h5>
-                <p style={{ color: '#666' }} className="feature-description">User-friendly feedback app for broad Android compatibility, smooth operation across all devices, and improved overall user experience.</p>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Menu Management</h5>
+                <p style={{ color: '#666' }} className="feature-description">Personalize your restaurant menu to make it better for customers. Add exciting extras, special offers, unique menus, and dynamic pricing options.</p>
             </div>
+
             <div className="col-md-4 mb-4">
                 <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-book-open feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Create feedback links and share by SMS</h5>
-                <p style={{ color: '#666' }} className="feature-description">Create personalized feedback links for customers and send them quickly by SMS to increase engagement and acquire useful insights to enhance your services.</p>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Inventory Management</h5>
+                <p style={{ color: '#666' }} className="feature-description">Smartly manage your inventory with instant low-stock alerts, item-wise auto-deduct, create daily closing reports and much more</p>
             </div>
+            
+            
+
             <div className="col-md-4 mb-4">
                 <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-book feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Feedback via QR codes</h5>
-                <p style={{ color: '#666' }} className="feature-description">Implementing a dynamic feedback system by installing QR codes on all tables and counters. Customers can easily scan these QR codes to provide feedback.</p>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Billing & Kot</h5>
+                <p style={{ color: '#666' }} className="feature-description">Ciferon's restaurant POS makes it easy to take orders, create bills, and generate KOT. You can accept payments, split bills, merge tables, and apply discounts and coupons effortlessly.</p>
             </div>
-            <div className="col-md-4 mb-4">
-                <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-file-invoice feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Customisable questions</h5>
-                <p style={{ color: '#666' }} className="feature-description">Craft and modify questions to your preferences for feedback. Personalize inquiries to generate smart responses.</p>
-            </div>
+
             <div className="col-md-4 mb-4">
                 <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-qrcode feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Customer data collection</h5>
-                <p style={{ color: '#666' }} className="feature-description">Easily collect customer information like as birthdays and anniversaries via feedback forms and use this information to send personalized alerts.</p>
+                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Customer Engagement</h5>
+                <p style={{ color: '#666' }} className="feature-description">Ciferon's CRM enables you to monitor, handle, and reward loyal customers, ensuring that your brand forms a unique connection with each customer.</p>
             </div>
-            <div className="col-md-4 mb-4">
-                <i style={{ fontSize: '48px', color: '#333', marginBottom: '15px' }} className="fas fa-mobile-alt feature-icon"></i>
-                <h5 style={{ fontWeight: 600, marginBottom: '10px' }} className="feature-title">Gather and track feedback from third-party applications</h5>
-                <p style={{ color: '#666' }} className="feature-description">Gather consumer feedback for online orders processed by a third party, guaranteeing a comprehensive approach to resolving any issues.</p>
-            </div>
+           
         </div>
     </div>
         {/* / row */}
@@ -96,7 +211,7 @@ const CustomerFeedback = () => {
           <img
             src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/02/1652030916333.jpeg"
             alt=""
-            className="rounded rellax text-center"
+            className="rounded rellax text-center "
             data-rellax-speed={2}
             data-rellax-percentage="0.5"
             style={{ width: 313, height: 313 }}
@@ -124,7 +239,7 @@ const CustomerFeedback = () => {
         <div className="col-lg-6 tablet-lg-top-45">
           <img
             src="https://02adc572.rocketcdn.me/wp-content/uploads/2024/01/leads.png"
-             className="rounded rellax text-center"
+            
             style={{ width: 500, height: 520 }}
             alt=""
           />
@@ -280,7 +395,7 @@ const CustomerFeedback = () => {
                     aria-expanded="true"
                     aria-controls="minimal-collapseOne"
                   >
-                    Is it possible to collect feedback without placing an order?
+                   Is it possible to access real-time reports for all my outlets in a single location?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -294,8 +409,7 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    Absolutely! Your customers can provide feedback on your
-                    staff service even if they haven’t placed an order.
+                  If you own multiple outlets, Ciferon POS has you covered! You can find reports for all your outlets conveniently displayed on a single screen.
                   </div>
                   {/* / accordion-body */}
                 </div>
@@ -312,8 +426,7 @@ const CustomerFeedback = () => {
                     aria-expanded="false"
                     aria-controls="minimal-collapseTwo"
                   >
-                    How many methods are available for gathering feedback
-                    through the Ciferon POS system?
+                    How can I track everyday sales?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -327,9 +440,7 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    Ciferon’s Feedback features let you gather feedback from
-                    your customers through an Android app, an SMS link, and a
-                    feedback QR code.
+                  Harness the power of Ciferon’s reporting module to easily keep tabs on your daily sales and payment status. Access it effortlessly from both the POS and the owner’s dashboard!
                   </div>
                   {/* / accordion-body */}
                 </div>
@@ -346,8 +457,7 @@ const CustomerFeedback = () => {
                     aria-expanded="false"
                     aria-controls="minimal-collapseThree"
                   >
-                    Is there a limit to how much feedback I can collect through
-                    SMS?
+                  Can I get the reports on WhatsApp?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -361,7 +471,7 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    You can take unlimited customer feedback!
+                  Absolutely! Our automated alert tool will send you a complete day summary on WhatsApp. Stay in the loop effortlessly!
                   </div>
                   {/* / accordion-body */}
                 </div>
@@ -378,7 +488,7 @@ const CustomerFeedback = () => {
                     aria-expanded="false"
                     aria-controls="minimal-collapseThree"
                   >
-                    Can I customise customer feedback questions?
+                   Can I control the rights of reports?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -392,8 +502,7 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    You can personalize your messages and organize them based on
-                    what works best for you and your customers.
+                  Certainly! You have the flexibility to assign report access based on departments. This way, each department can only view the reports that are relevant to them. Easy and tailored to your needs!
                   </div>
                   {/* / accordion-body */}
                 </div>
@@ -410,7 +519,7 @@ const CustomerFeedback = () => {
                     aria-expanded="false"
                     aria-controls="minimal-collapseThree"
                   >
-                    Can I collect feedback using a QR code?
+                   Can I download my restaurant reports?
                     <span>
                       <i className="fas fa-chevron-down" />
                     </span>
@@ -424,15 +533,76 @@ const CustomerFeedback = () => {
                   data-bs-parent="#minimal-accordionExample"
                 >
                   <div className="accordion-body">
-                    Absolutely! You can print a feedback form generated by the
-                    POS system on your bill and collect QR-code feedback during
-                    payment.
+                  Ciferon restaurant POS creates accurate and easy-to-download reports covering your restaurant’s sales, item-wise consumption, online orders, staff scheduling, and more!
                   </div>
                   {/* / accordion-body */}
                 </div>
                 {/* / collapse */}
               </div>
               {/* / accordion-item */}
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="minimal-headingThree">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#minimal-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="minimal-collapseThree"
+                  >
+                  Does Ciferon POS has Profit & loss Report?
+                    <span>
+                      <i className="fas fa-chevron-down" />
+                    </span>
+                  </button>
+                </h2>
+                {/* / accordion-header */}
+                <div
+                  id="minimal-collapseThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="minimal-headingThree"
+                  data-bs-parent="#minimal-accordionExample"
+                >
+                  <div className="accordion-body">
+                  Yes.
+                  </div>
+                  {/* / accordion-body */}
+                </div>
+                {/* / collapse */}
+              </div>
+              {/* / accordion-item */}
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="minimal-headingThree">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#minimal-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="minimal-collapseThree"
+                  >
+                   Can I upload the reports to tally directly from Ciferon POS?
+                    <span>
+                      <i className="fas fa-chevron-down" />
+                    </span>
+                  </button>
+                </h2>
+                {/* / accordion-header */}
+                <div
+                  id="minimal-collapseThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="minimal-headingThree"
+                  data-bs-parent="#minimal-accordionExample"
+                >
+                  <div className="accordion-body"> Yes.</div>
+                  {/* / accordion-body */}
+                </div>
+                {/* / collapse */}
+              </div>
+              {/* / accordion-item */}
+
+             
+
             </div>
             {/* / accordion */}
           </div>
@@ -444,14 +614,11 @@ const CustomerFeedback = () => {
     </section>
     {/* / faq */}
   </div>
-  {/* / main-container */}
 
   <Footer/>
-</>
-
-   </>
+  </>
 
   )
 }
 
-export default CustomerFeedback
+export default RestaurantReports
